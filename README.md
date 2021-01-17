@@ -11,7 +11,7 @@
 [![Gitter](https://img.shields.io/gitter/room/gitterHQ/gitter.svg?style=flat-square)](https://gitter.im/opprTeam)
 [![Twitter](https://flat.badgen.net/twitter/follow/opprGroup)](https://twitter.com/opprGroup)
 
-Several *datasets* are fostering innovation in higher-level functions for everyone, everywhere. By providing this repository, we hope to encourage the research community to focus on hard problems. In this repository, we present our demographic results obtained from clinicians during our [User Tests and Analysis 7 (UTA7)](https://github.com/MIMBCD-UI/meta/wiki/User-Research) study. Work and results are published on top [Human-Computer Interaction (HCI)](https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction) journals and conferences, such as the [International Journal of Human-Computer Studies (IJHCS)](https://www.journals.elsevier.com/international-journal-of-human-computer-studies). Results were analyzed and interpreted on our [Statistical Analysis](https://mida-project.github.io/uta7-statistical-analysis-charts) charts. The user tests were made in clinical institutions, where clinicians diagnose several patients for a **Multi-Modality** *vs* **Assistant** comparison. For example, in these tests, we used both [`prototype-multi-modality`](https://github.com/mida-project/prototype-multi-modality) and [`prototype-multi-modality-assistant`](https://github.com/mida-project/prototype-multi-modality-assistant) repositories for the comparison. On the same hand, the hereby *dataset* represents the pieces of information of both [BreastScreening](https://BreastScreening.github.io) and [MIDA](https://mida-project.github.io) projects. These projects are research projects that deal with the use of a recently proposed technique in literature: [Deep Convolutional Neural Networks (CNNs)](https://en.wikipedia.org/wiki/Convolutional_neural_network). From a developed User Interface (UI) and *framework*, these deep networks will incorporate [several datasets](https://github.com/MIMBCD-UI/meta/wiki/Datasets) in different modes. For more information about the available *datasets* please follow the [Datasets](https://github.com/MIMBCD-UI/meta/wiki/Datasets) page on the [Wiki](https://github.com/MIMBCD-UI/meta/wiki) of the [`meta`](https://github.com/MIMBCD-UI/meta) information repository. Last but not least, you can find further information on the [Wiki](https://github.com/MIMBCD-UI/dataset-uta7-dicom/wiki) in this repository. We also have several demos to see in our [YouTube Channel](https://www.youtube.com/channel/UCPz4aTIVHekHXTxHTUOLmXw), please follow us.
+Several *datasets* are fostering innovation in higher-level functions for everyone, everywhere. By providing this repository, we hope to encourage the research community to focus on hard problems. In this repository, we present a full sampling of our affinity diagrams extrated from the focus groups during the [User Tests and Analysis 7 (UTA7)](https://github.com/MIMBCD-UI/meta/wiki/User-Research#user-test-evaluations-) study. Here, we provide a [`dataset/`](dataset/) from the achieved demographic results of [UTA7](https://github.com/MIMBCD-UI/meta/wiki/User-Research#user-test-evaluations-). Work and results are published on a top [Human-Computer Interaction (HCI)](https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction) journal named [International Journal of Human-Computer Studies (IJHCS)](https://www.journals.elsevier.com/international-journal-of-human-computer-studies). Results were analyzed and interpreted on our [Statistical Analysis](https://mida-project.github.io/uta7-statistical-analysis-charts) charts. The user tests were made in clinical institutions, where clinicians diagnose several patients for a **Multi-Modality** *vs* **Assistant** comparison. For example, in these tests, we used the [`prototype-multi-modality`](https://github.com/MIMBCD-UI/prototype-multi-modality), [`prototype-multi-modality-assistant`](https://github.com/mida-project/prototype-multi-modality-assistant) and [`prototype-heatmap`](https://github.com/mida-project/prototype-heatmap) repositories for the comparison. On the same hand, the hereby *dataset* represents the pieces of information of both [BreastScreening](https://BreastScreening.github.io) and [MIDA](https://mida-project.github.io) research works. These projects are research projects that deal with the use of a recently proposed technique in literature: [Deep Convolutional Neural Networks (CNNs)](https://en.wikipedia.org/wiki/Convolutional_neural_network). From a developed User Interface (UI) and *framework*, these deep networks will incorporate [several datasets](https://github.com/MIMBCD-UI/meta/wiki/Datasets) in different modes. For more information about the available *datasets* please follow the [Datasets](https://github.com/MIMBCD-UI/meta/wiki/Datasets) page on the [Wiki](https://github.com/MIMBCD-UI/meta/wiki) of the [`meta`](https://github.com/MIMBCD-UI/meta) information repository. Last but not least, you can find further information on the [Wiki](https://github.com/MIMBCD-UI/dataset-uta7-demographics/wiki) in this repository. We also have several demos to see in our [YouTube Channel](https://www.youtube.com/channel/UCPz4aTIVHekHXTxHTUOLmXw), please follow us.
 
 ## Citing
 
@@ -54,11 +54,9 @@ series = {AVI '20}
 The following list is showing the required dependencies for this project to run locally:
 
 * [Git](https://git-scm.com/) or any other Git or GitHub version control tool
-* [Python](https://www.python.org/) (3.5 or newer)
 
 Here are some tutorials and documentation, if needed, to feel more comfortable about using and playing around with this repository:
 
-* [Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 * [Git Tutorial](https://git-scm.com/docs/gittutorial)
 * [GitHub Quick Tutorial](https://guides.github.com/activities/hello-world/)
 
@@ -68,25 +66,13 @@ Usage follow the instructions here to setup the current repository and extract t
 
 ### Installation
 
-At this point, the only way to install this repository is manual. Eventually, this will be accessible through [pip](https://pypi.org/project/pip/) or any other package manager, as mentioned on the [roadmap](#Roadmap).
+At this point, the only way to install this repository is manual. Eventually, this will be accessible through [git](https://git-scm.com/), as mentioned on the [roadmap](#Roadmap).
 
 Nonetheless, this kind of installation is as simple as cloning this repository. Virtually all Git and GitHub version control tools are capable of doing that. Through the console, we can use the command below, but other ways are also fine.
 
 ```bash
-git clone https://github.com/MIMBCD-UI/dataset-uta7-dicom.git
+git clone https://github.com/MIMBCD-UI/dataset-uta7-demographics.git
 ```
-
-Optionally, the module/directory can be installed into the designated Python interpreter by moving it into the site-packages directory at the respective Python directory.
-
-### Demonstration
-
-Please, feel free to try out our demo. It is a script called `demo.py` at the `src/` directory. It can be used as follows:
-
-```bash
-python src/demo.py
-```
-
-Just keep in mind this is just a demo, so it does nothing more than downloading data to an arbitrary destination directory if the directory does not exist or does not have any content. Also, we did our best to make the demo as user-friendly as possible, so, above everything else, have fun! 😁
 
 ## Roadmap
 
@@ -94,11 +80,11 @@ Just keep in mind this is just a demo, so it does nothing more than downloading 
 
 We need to follow the repository goal, by addressing the thereby information. Therefore, it is of chief importance to scale this solution supported by the repository. The repository solution follows the best practices, achieving the [Core Infrastructure Initiative (CII)](https://bestpractices.coreinfrastructure.org/en/projects/3172) specifications.
 
-Besides that, one of our goals involves creating a configuration file to automatically test and publish our code to pip or any other package manager. It will be most likely prepared for the [GitHub Actions](https://github.com/features/actions). Other goals may be written here in the future.
+Besides that, one of our goals involves creating a configuration file to automatically test and publish our code. It will be most likely prepared for the [GitHub Actions](https://github.com/features/actions). Other goals may be written here in the future.
 
 ## Contributing
 
-This project exists thanks to all the people who [contribute](CONTRIBUTING.md). We welcome everyone who wants to help us improve this downloader. As follows, we present some suggestions.
+This project exists thanks to all the people who [contribute](CONTRIBUTING.md). We welcome everyone who wants to help us improve this repository. As follows, we present some suggestions.
 
 ### Issuer
 
@@ -106,7 +92,7 @@ Either as something that seems missing or any need for support, just open a [new
 
 ### Developer
 
-We like to develop, but we also like collaboration. You could ask us to add some features... Or you could want to do it yourself and fork this repository. Maybe even do some side-project of your own. If the latter ones, please let us share some insights about what we currently have.
+We like to develop, but we also like collaboration. You could ask us to add some features or more data... Or you could want to do it yourself and fork this repository. Maybe even do some side-project of your own. If the latter ones, please let us share some insights about what we currently have.
 
 ## Information
 
@@ -114,31 +100,39 @@ The current information will summarize important items of this repository. In th
 
 ### Related Repositories
 
-The following list, represents the set of related repositories for the presented one:
-
-- [`dataset-uta7-demographics`](https://github.com/MIMBCD-UI/dataset-uta7-demographics)
+The following list, represents the set of related repositories for the presented repository:
 
 - [`dataset-uta7-ad`](https://github.com/MIMBCD-UI/dataset-uta7-ad)
 
-- [`dataset-uta7-sus`](https://github.com/MIMBCD-UI/dataset-uta7-sus)
-
-- [`dataset-uta7-nasa-tlx`](https://github.com/MIMBCD-UI/dataset-uta7-nasa-tlx)
-
-- [`dataset-uta7-time`](https://github.com/MIMBCD-UI/dataset-uta7-time)
-
-- [`dataset-uta7-rates`](https://github.com/MIMBCD-UI/dataset-uta7-rates)
-
-- [`dataset-uta7-co-variables`](https://github.com/MIMBCD-UI/dataset-uta7-co-variables)
+- [`dataset-uta7-ai`](https://github.com/MIMBCD-UI/dataset-uta7-ai)
 
 - [`dataset-uta7-annotations`](https://github.com/MIMBCD-UI/dataset-uta7-annotations)
 
+- [`dataset-uta7-co-variables`](https://github.com/MIMBCD-UI/dataset-uta7-co-variables)
+
+- [`dataset-uta7-demographics`](https://github.com/MIMBCD-UI/dataset-uta7-demographics)
+
 - [`dataset-uta7-dicom`](https://github.com/MIMBCD-UI/dataset-uta7-dicom)
 
-- [`dataset-uta4-dicom`](https://github.com/MIMBCD-UI/dataset-uta4-dicom)
+- [`dataset-uta7-heatmaps`](https://github.com/MIMBCD-UI/dataset-uta7-heatmaps)
+
+- [`dataset-uta7-nasa-tlx`](https://github.com/MIMBCD-UI/dataset-uta7-nasa-tlx)
+
+- [`dataset-uta7-sus`](https://github.com/MIMBCD-UI/dataset-uta7-sus)
+
+- [`dataset-uta7-rates`](https://github.com/MIMBCD-UI/dataset-uta7-rates)
+
+- [`dataset-uta7-time`](https://github.com/MIMBCD-UI/dataset-uta7-time)
+
+- [`prototype-multi-modality-assistant`](https://github.com/mida-project/prototype-multi-modality-assistant)
+
+- [`prototype-heatmap`](https://github.com/mida-project/prototype-heatmap)
+
+- [`prototype-multi-modality`](https://github.com/MIMBCD-UI/prototype-multi-modality)
 
 ### Dataset Resources
 
-To publish our [datasets](https://www.kaggle.com/MIMBCD-UI) we used a well known platform called [Kaggle](https://www.kaggle.com). To access our project's [Profile Page](https://www.kaggle.com/MIMBCD-UI) just follow the [link](https://www.kaggle.com/MIMBCD-UI).
+To publish our [datasets](https://www.kaggle.com/MIMBCD-UI) we used a well known platform called [Kaggle](https://www.kaggle.com). To access our project's [Profile Page](https://www.kaggle.com/MIMBCD-UI) just follow the [link](https://www.kaggle.com/MIMBCD-UI). Last but not least, you can also follow our work at [data.world](https://data.world/mimbcdui-project), [figshare.com](https://figshare.com/authors/MIMBCD-UI_Project/8674887) and [openml.org](https://www.openml.org/u/11806) platforms.
 
 ### License & Copyright
 
@@ -146,7 +140,7 @@ Copyright &copy; 2021 [Instituto Superior Técnico](http://tecnico.ulisboa.pt/)
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
-The [`dataset-uta7-dicom`](https://github.com/MIMBCD-UI/dataset-uta7-dicom) repository is distributed under the terms of [GNU AGPLv3](LICENSE) license and [CC-BY-SA-4.0](COPYING) copyright. Permissions of this license are conditioned on making available complete elements from this repository of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved.
+The [`dataset-uta7-demographics`](https://github.com/MIMBCD-UI/dataset-uta7-demographics) repository is distributed under the terms of [GNU AGPLv3](LICENSE) license and [CC-BY-SA-4.0](COPYING) copyright. Permissions of this license are conditioned on making available complete elements from this repository of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved.
 
 ### Team
 
@@ -156,18 +150,30 @@ Our team brings everything together sharing ideas and the same purpose, developi
 
 * Francisco Maria Calisto [ [Website](https://web.tecnico.ulisboa.pt/francisco.calisto) | [ResearchGate](https://www.researchgate.net/profile/Francisco_Maria_Calisto) | [GitHub](https://github.com/FMCalisto) | [Twitter](https://twitter.com/FMCalisto) | [LinkedIn](https://www.linkedin.com/in/fmcalisto/) ]
 
+* Carlos Santiago [ [ResearchGate](https://www.researchgate.net/profile/Carlos_Santiago6) ]
+
+* Nuno Nunes [ [ResearchGate](https://www.researchgate.net/profile/Nuno_Nunes2) ]
+
+* Jacinto Nascimento [ [ResearchGate](https://www.researchgate.net/profile/Jacinto_Nascimento) ]
+
 #### Revisors
 
 * Hugo Lencastre [ [ResearchGate](https://www.researchgate.net/profile/Hugo_Lencastre) ]
 
 * Nádia Mourão [ [ResearchGate](https://www.researchgate.net/profile/Nadia_Mourao) ]
 
-#### Participants
+#### Companions
 
-* Carlos Santiago
-* Jacinto C. Nascimento
+* Alfredo Ferreira
+* Bruno Cardoso
+* Bruno Dias
+* Bruno Oliveira
+* Catarina Barata
+* Daniel Gonçalves
+* João Bernardo Tavares
+* Luís Ribeiro Gomes
+* Madalena Pedreira
 * Pedro Miraldo
-* Nuno Nunes
 
 #### Acknowledgements
 
